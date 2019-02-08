@@ -1,9 +1,14 @@
 
 from textgenrnn import textgenrnn
 
-textgen = textgenrnn(weights_path='./models/ledin_weights.hdf5',
-                       vocab_path='./models/ledin_vocab.json',
-                       config_path='./models/ledin_config.json')
+model_name = 'abba'
+weights_path = './models/{}_weights.hdf5'.format(model_name)
+vocab_path = './models/{}_vocab.json'.format(model_name)
+config_path = './models/{}_config.json'.format(model_name)
+
+textgen = textgenrnn(weights_path = weights_path,
+                       vocab_path = vocab_path,
+                       config_path = config_path)
 
 # this temperature schedule cycles between 1 very unexpected token, 1 unexpected token, 2 expected tokens, repeat.
 # changing the temperature schedule can result in wildly different output!
@@ -13,8 +18,9 @@ prefix = None   # if you want each generated text to start with a given seed tex
 textgen.generate(
   temperature=temperature,
   prefix=prefix,
-  n=1000,
+  n=100,
   max_gen_length=60)
+
 
 #textgen = textgenrnn('textgenrnn_weights.hdf5')
 # textgen = textgenrnn(name="eminem")
