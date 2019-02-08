@@ -1,7 +1,9 @@
 
+import sys
+
 from textgenrnn import textgenrnn
 
-model_name = 'abba'
+model_name = sys.argv[1]
 weights_path = './models/{}_weights.hdf5'.format(model_name)
 vocab_path = './models/{}_vocab.json'.format(model_name)
 config_path = './models/{}_config.json'.format(model_name)
