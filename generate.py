@@ -1,3 +1,5 @@
+import re
+
 from textgenrnn import textgenrnn
 
 
@@ -17,12 +19,31 @@ class Generate:
             max_gen_length=60,
             return_as_list=True)
 
-        textgen = None
-
-        self.generated = ' '.join(out)
+        self.set_generated(out)
 
     temperature = [1.0, 0.5, 0.2, 0.2]
     generated = ''
+
+    def set_generated(self, input_list):
+        out = '.\n'.join(
+            re.sub(
+                r'(^([^\w\dåäöÅÄÖ]){1,})',
+                '',
+                re.sub(
+                    r'([^\w\dåäöÅÄÖ]){1,}$',
+                    '',
+                    w
+                )
+            ).capitalize() for w in input_list
+        )
+
+        removed_repetition = re.sub(r'\b(\w+)\s+\1\b', r'\1', out)
+        removed_commas_and_extras = re.sub(
+            r'([\,\"\'\(\)]\s){2,}', r'\1', removed_repetition)
+        removed_unneeded_whitespace = re.sub(
+            r'\s([^\w\dåäöÅÄÖ])', r'\1', removed_commas_and_extras)
+
+        self.generated = '{}.'.format(removed_unneeded_whitespace)
 
     def get_file(self, artist):
         weights_path = './models/{}_weights.hdf5'.format(artist)
