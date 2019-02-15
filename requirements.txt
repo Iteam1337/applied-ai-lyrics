@@ -1,3 +1,4 @@
+flask-cors
 Flask==1.0
 textgenrnn
 tensorflow

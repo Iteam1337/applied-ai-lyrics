@@ -1,9 +1,11 @@
 import multiprocessing as mp
 from generate import Generate
-from flask import Flask
+from flask_cors import CORS, cross_origin
+from flask import Flask, jsonify
 
 app = Flask(__name__)
-
+cors = CORS(app)
+app.config['CORS_HEADERS'] = 'Content-Type'
 
 def generate_text(q, artist):
     gen = Generate(artist)
@@ -11,6 +13,7 @@ def generate_text(q, artist):
 
 
 @app.route('/api/generate/<artist>')
+@cross_origin()
 def generate(artist):
     ctx = mp.get_context('spawn')
     q = ctx.Queue()
@@ -21,4 +24,4 @@ def generate(artist):
 
     p.join()
 
-    return result
+    return jsonify(data=result)
