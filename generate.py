@@ -5,7 +5,7 @@ class Generate:
     def __init__(self, artist):
         artist = artist.lower()
 
-        if not artist or artist not in ('abba', 'ledin', 'maggio'):
+        if not artist or artist not in ('abba', 'ledin', 'maggio', 'kendrick'):
             return None
 
         textgen = self.get_textgen(artist)
