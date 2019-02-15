@@ -1,37 +1,33 @@
-
-import sys
-
 from textgenrnn import textgenrnn
 
-model_name = sys.argv[1]
-weights_path = './models/{}_weights.hdf5'.format(model_name)
-vocab_path = './models/{}_vocab.json'.format(model_name)
-config_path = './models/{}_config.json'.format(model_name)
+class Generate:
+    def __init__(self, artist):
+      textgen = self.get_textgen(artist)
 
-textgen = textgenrnn(weights_path = weights_path,
-                       vocab_path = vocab_path,
-                       config_path = config_path)
+      out = textgen.generate(
+        temperature=self.temperature,
+        prefix=None,
+        n=20,
+        max_gen_length=60,
+        return_as_list=True)
 
-# this temperature schedule cycles between 1 very unexpected token, 1 unexpected token, 2 expected tokens, repeat.
-# changing the temperature schedule can result in wildly different output!
-temperature = [1.0, 0.5, 0.2, 0.2]   
-prefix = None   # if you want each generated text to start with a given seed text
+      textgen = None
 
-textgen.generate(
-  temperature=temperature,
-  prefix=prefix,
-  n=100,
-  max_gen_length=60)
+      self.generated = " ".join(out)
 
+    temperature = [1.0, 0.5, 0.2, 0.2]
+    generated = ''
 
-#textgen = textgenrnn('textgenrnn_weights.hdf5')
-# textgen = textgenrnn(name="eminem")
-# textgen.reset()
-# textgen.train_from_file('./lyrics/eminem.txt', 
-#  word_level=False,
-#  rnn_bidirectional=True,
-#  num_epochs=10,
-#  max_length=10,
-#  max_gen_length=50,
-#  max_words=5000)
-# textgen.generate(10, temperature=0.7, prefix="")
+    def get_file(self, artist):
+      weights_path = './models/{}_weights.hdf5'.format(artist)
+      vocab_path = './models/{}_vocab.json'.format(artist)
+      config_path = './models/{}_config.json'.format(artist)
+
+      return weights_path, vocab_path, config_path
+
+    def get_textgen(self, artist):
+      weights_path, vocab_path, config_path = self.get_file(artist)
+
+      return textgenrnn(weights_path = weights_path,
+                        vocab_path = vocab_path,
+                        config_path = config_path)
