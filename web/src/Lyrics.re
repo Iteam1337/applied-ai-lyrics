@@ -8,6 +8,14 @@ module Api = {
   };
 };
 
+module Styles = {
+  open Emotion;
+
+  let wrap = [%css
+    [alignItems(`center), display(`flex), flexDirection(`column)]
+  ];
+};
+
 type state =
   | Error
   | Idle
@@ -59,7 +67,7 @@ let make = (~artist, _children) => {
     },
 
   render: self => {
-    <div className=Styles.lyrics_wrap>
+    <div className=Styles.wrap>
       {switch (self.state) {
        | Idle => ReasonReact.string("")
        | Error =>

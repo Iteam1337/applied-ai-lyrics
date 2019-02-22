@@ -1,3 +1,27 @@
+module Styles = {
+  open Emotion;
+
+  let wrap = [%css
+    [
+      alignItems(`center),
+      display(`flex),
+      flexFlow(`column, `nowrap),
+      justifyContent(`center),
+      height(`pct(100.0)),
+      padding(`px(50)),
+    ]
+  ];
+
+  let artist_holder = [%css
+    [
+      alignItems(`center),
+      display(`flex),
+      flexFlow(`row, `nowrap),
+      marginTop(`px(50)),
+    ]
+  ];
+};
+
 type state = {artist: option(Artist.artist)};
 
 type action =

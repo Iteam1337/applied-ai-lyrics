@@ -1,3 +1,37 @@
+module Styles = {
+  open Emotion;
+
+  let avatar = [%css
+    [
+      appearance(`none),
+      borderRadius(`px(96)),
+      borderWidth(`px(0)),
+      boxShadow(~y=px(4), ~blur=px(12), `hsla((341, 100, 12, 0.05))),
+      cursor(`pointer),
+      height(`px(96)),
+      marginLeft(`px(25)),
+      marginRight(`px(25)),
+      outlineStyle(`none),
+      transitionDuration(`ms(150)),
+      transitionProperty("box-shadow transform"),
+      transitionTimingFunction(`easeIn),
+      width(`px(96)),
+      hover([
+        boxShadow(~y=px(4), ~blur=px(12), `hsla((341, 100, 12, 0.1))),
+      ]),
+    ]
+  ];
+
+  let avatar_s = [%css
+    [
+      boxShadow(~y=px(4), ~blur=px(16), `hsla((341, 100, 12, 0.12))),
+      transform(`scale(1.33)),
+    ]
+  ];
+
+  let avatar_selected = Cx.merge([|avatar, avatar_s|]);
+};
+
 let component = ReasonReact.statelessComponent(__MODULE__);
 
 let make = (~artist: Artist.artist, ~onClick, ~selected, _children) => {
@@ -6,8 +40,8 @@ let make = (~artist: Artist.artist, ~onClick, ~selected, _children) => {
   render: _self => {
     let style =
       switch (selected) {
-      | `Selected => Styles.artist_avatar_selected
-      | `Not_selected => Styles.artist_avatar
+      | `Selected => Styles.avatar_selected
+      | `Not_selected => Styles.avatar
       };
 
     <button className=style onClick>
