@@ -11,7 +11,10 @@ let make = (~artist: Artist.artist, ~onClick, ~selected, _children) => {
       };
 
     <button className=style onClick>
-      {Artist.get_name(artist) |> ReasonReact.string}
-    </button>;
+      /***
+       * TODO(@lessp): Add this
+       */
+      /* <img src={Artist.get_image(artist)} alt={Artist.get_name(artist)} /> */
+       {Artist.get_name(artist) |> ReasonReact.string} </button>;
   },
 };

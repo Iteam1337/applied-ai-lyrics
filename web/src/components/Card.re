@@ -1,9 +1,18 @@
 let component = ReasonReact.statelessComponent(__MODULE__);
 
-let make = (~lyrics, _children) => {
+let make = (~artist, ~lyrics, _children) => {
   ...component,
 
   render: _self => {
-    <div className=Styles.lyrics_holder> {lyrics |> ReasonReact.string} </div>;
+    let artist_name = artist |> Artist.get_name;
+
+    <div className=Styles.lyrics_holder>
+      <div className=Styles.lyrics_text>
+        {lyrics |> ReasonReact.string}
+        <span className=Styles.lyrics_artist>
+          {{j|– $artist_name ITEAM |j} |> ReasonReact.string}
+        </span>
+      </div>
+    </div>;
   },
 };

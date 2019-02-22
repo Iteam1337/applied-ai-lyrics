@@ -1,0 +1,1 @@
+[@bs.val] external requireAssetURI: string => string = "require";

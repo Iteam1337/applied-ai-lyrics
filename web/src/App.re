@@ -1,83 +1,47 @@
-module Api = {
-  open Js.Promise;
-  let get_lyrics = (artist: Artist.artist) => {
-    Axios.get(
-      "http://localhost:5000/api/generate/" ++ Artist.get_endpoint(artist),
-    )
-    |> then_(response => resolve(response));
-  };
-};
-
-type lyricsState =
-  | Idle
-  | Loading
-  | Lyrics(string);
-
-type state = {
-  artist: Artist.artist,
-  lyrics: lyricsState,
-};
+type state = {artist: option(Artist.artist)};
 
 type action =
-  | Artist(Artist.artist)
-  | Generate
-  | Loading
-  | Generated(string);
+  | SelectArtist(Artist.artist);
 
 let component = ReasonReact.reducerComponent(__MODULE__);
 
 let make = _children => {
   ...component,
 
-  initialState: () => {artist: Abba, lyrics: Idle},
+  initialState: () => {artist: None},
 
-  reducer: (action, state) =>
+  reducer: (action, _state) =>
     switch (action) {
-    | Artist(a) => ReasonReact.Update({...state, artist: a})
-    | Generate =>
-      ReasonReact.SideEffects(
-        self => {
-          self.send(Loading);
-          Js.Promise.(
-            Api.get_lyrics(self.state.artist)
-            |> then_(res => {
-                 self.send(Generated(res##data##data));
-                 resolve();
-               })
-            |> ignore
-          );
-        },
-      )
-    | Generated(l) => ReasonReact.Update({...state, lyrics: Lyrics(l)})
-    | Loading => ReasonReact.Update({...state, lyrics: Loading})
+    | SelectArtist(a) => ReasonReact.Update({artist: Some(a)})
     },
 
   render: self => {
     <div className=Styles.wrap>
+      {switch (self.state.artist) {
+       | Some(a) => <Lyrics artist=a />
+       | None => "" |> ReasonReact.string
+       }}
       <div className=Styles.artist_holder>
         {ReasonReact.array(
            Array.of_list(
              Artist.get_all()
              |> List.map(a =>
                   <Avatar
+                    key={Artist.get_name(a)}
                     artist=a
-                    onClick={_event => self.send(Artist(a))}
+                    onClick={_event => self.send(SelectArtist(a))}
                     selected={
-                      self.state.artist === a ? `Selected : `Not_selected
+                      switch (self.state.artist) {
+                      | Some(artist) =>
+                        artist === a ? `Selected : `Not_selected
+                      | None => `Not_selected
+                      }
                     }
                   />
                 ),
            ),
          )}
       </div>
-      <button onClick={_event => self.send(Generate)}>
-        {ReasonReact.string("Generate")}
-      </button>
-      {switch (self.state.lyrics) {
-       | Loading => ReasonReact.string("Loading...")
-       | Lyrics(lyrics) => <Card lyrics />
-       | _ => ReasonReact.string("")
-       }}
     </div>;
   },
 };
