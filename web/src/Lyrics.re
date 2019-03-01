@@ -2,7 +2,7 @@ module Api = {
   open Js.Promise;
   let get_lyrics = (artist: Artist.artist) => {
     Axios.get(
-      "http://localhost:5000/api/generate/" ++ Artist.get_endpoint(artist),
+      "https://applied-ai-lyrics.iteamdev.se/api/generate/" ++ Artist.get_endpoint(artist),
     )
     |> then_(response => resolve(response));
   };

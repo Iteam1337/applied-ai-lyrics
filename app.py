@@ -3,19 +3,31 @@ from generate import Generate
 from flask_cors import CORS, cross_origin
 from flask import Flask, jsonify
 
-app = Flask(__name__)
+app = Flask(__name__, root_path="web/", static_url_path="/", static_folder="build/")
+
 cors = CORS(app)
-app.config['CORS_HEADERS'] = 'Content-Type'
+app.config["CORS_HEADERS"] = "Content-Type"
+
 
 def generate_text(q, artist):
     gen = Generate(artist)
     q.put(gen.generated)
 
 
-@app.route('/api/generate/<artist>')
+@app.route("/")
+def web():
+    return open("web/build/index.html").read()
+
+
+@app.route("/Index.js")
+def send_js():
+    return open("web/build/Index.js").read()
+
+
+@app.route("/api/generate/<artist>")
 @cross_origin()
 def generate(artist):
-    ctx = mp.get_context('spawn')
+    ctx = mp.get_context("spawn")
     q = ctx.Queue()
     p = ctx.Process(target=generate_text, args=(q, artist))
     p.start()
