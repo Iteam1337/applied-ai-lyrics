@@ -27,8 +27,9 @@ module Styles = {
     [
       alignItems(`flexStart),
       display(`flex),
-      flexBasis(`pct(80.0)),
+      width(`pct(60.0)),
       flexDirection(`column),
+      marginRight(`px(32)),
     ]
   ];
 
@@ -36,7 +37,7 @@ module Styles = {
     [
       alignItems(`center),
       display(`flex),
-      flexBasis(`pct(20.0)),
+      width(`pct(40.0)),
       justifyContent(`center),
     ]
   ];

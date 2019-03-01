@@ -29,11 +29,7 @@ let get_endpoint = artist => {
 /**
  * TODO(@lessp): Add avatar image support
  */
-/*
-  let get_image = artist => {
-    let artist_string = get_endpoint(artist);
-    Utils.requireAssetURI({j|./img/$artist_string.png|j});
-  };
- */
+
+let get_image = artist => "./img/" ++ get_endpoint(artist) ++ ".png";
 
 let get_all = () => [Abba, Kendrick, Ledin, Linnros, Maggio];
