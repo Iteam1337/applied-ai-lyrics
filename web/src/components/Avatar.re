@@ -25,30 +25,43 @@ module Styles = {
   let avatar_s = [%css
     [
       boxShadow(~y=px(4), ~blur=px(16), `hsla((341, 100, 12, 0.12))),
-      transform(`scale(1.33)),
+      /* transform(`scale(1.33)), */
     ]
   ];
 
   let avatar_selected = Cx.merge([|avatar, avatar_s|]);
+
+  let relative = [%css [position(`relative)]];
 };
 
 let component = ReasonReact.statelessComponent(__MODULE__);
 
-let make = (~artist: Artist.artist, ~onClick, ~selected, _children) => {
+let make =
+    (~artist: Artist.artist, ~onClick, ~selected, ~left=false, _children) => {
   ...component,
 
   render: _self => {
-    let style =
-      switch (selected) {
-      | `Selected => Styles.avatar_selected
-      | `Not_selected => Styles.avatar
-      };
-
-    <button className=style onClick>
-      /***
-       * TODO(@lessp): Add this
-       */
-      /* <img src={Artist.get_image(artist)} alt={Artist.get_name(artist)} /> */
-       {Artist.get_name(artist) |> ReasonReact.string} </button>;
+    switch (selected) {
+    | `Selected =>
+      <div className=Styles.relative>
+        <button className=Styles.avatar_selected onClick>
+          <Lyrics artist left />
+          /***
+           * TODO(@lessp): Add this
+           */
+          /* <img src={Artist.get_image(artist)} alt={Artist.get_name(artist)} /> */
+          {Artist.get_name(artist) |> ReasonReact.string}
+        </button>
+      </div>
+    | `Not_selected =>
+      <div>
+        <button className=Styles.avatar onClick>
+          /***
+           * TODO(@lessp): Add this
+           */
+          /* <img src={Artist.get_image(artist)} alt={Artist.get_name(artist)} /> */
+           {Artist.get_name(artist) |> ReasonReact.string} </button>
+      </div>
+    };
   },
 };

@@ -2,6 +2,7 @@ type artist =
   | Abba
   | Kendrick
   | Ledin
+  | Linnros
   | Maggio;
 
 type t = {name: string};
@@ -11,6 +12,7 @@ let get_name = artist =>
   | Abba => "Abba"
   | Kendrick => "Kendrick Lamar"
   | Ledin => "Tomas Ledin"
+  | Linnros => "Oskar Linnros"
   | Maggio => "Veronica Maggio"
   };
 
@@ -19,6 +21,7 @@ let get_endpoint = artist => {
   | Abba => "abba"
   | Kendrick => "kendrick"
   | Ledin => "ledin"
+  | Linnros => "linnros"
   | Maggio => "maggio"
   };
 };
@@ -33,4 +36,4 @@ let get_endpoint = artist => {
   };
  */
 
-let get_all = () => [Abba, Kendrick, Ledin, Maggio];
+let get_all = () => [Abba, Kendrick, Ledin, Linnros, Maggio];

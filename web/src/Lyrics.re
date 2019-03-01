@@ -12,8 +12,38 @@ module Styles = {
   open Emotion;
 
   let wrap = [%css
-    [alignItems(`center), display(`flex), flexDirection(`column)]
+    [
+      alignItems(`center),
+      display(`flex),
+      flexDirection(`column),
+      position(`absolute),
+      bottom(Calc.(`px(32) + `pct(100.))),
+      right(`auto),
+      left(`px(0)),
+      select(
+        ":after",
+        [
+          content(""),
+          position(`absolute),
+          bottom(`px(-12)),
+          left(`px(62)),
+          width(`px(24)),
+          height(`px(24)),
+          backgroundColor(`hex("FF0856")),
+          transform(`rotate(`deg(45.0))),
+        ],
+      ),
+    ]
   ];
+
+  let wrap_l = [%css
+    [
+      left(`auto),
+      right(`px(0)),
+      select(":after", [right(`px(62)), left(`auto)]),
+    ]
+  ];
+  let wrap_left = Cx.merge([|wrap, wrap_l|]);
 };
 
 type state =
@@ -32,7 +62,7 @@ type retainedProps = {artist: Artist.artist};
 
 let component = ReasonReact.reducerComponentWithRetainedProps(__MODULE__);
 
-let make = (~artist, _children) => {
+let make = (~artist, ~left=false, _children) => {
   ...component,
   retainedProps: {
     artist: artist,
@@ -66,15 +96,14 @@ let make = (~artist, _children) => {
     | Success(l) => ReasonReact.Update(Lyrics(l))
     },
 
-  render: self => {
-    <div className=Styles.wrap>
-      {switch (self.state) {
-       | Idle => ReasonReact.string("")
+  render: ({state}) => {
+    <div className={left ? Styles.wrap_left : Styles.wrap}>
+      {switch (state) {
+       | Idle => "" |> ReasonReact.string
        | Error =>
-         ReasonReact.string(
-           "Oj. Det verkar som att någonting har gått snett. Ryck tag i en moderator så skall de nog kunna hjälpa till!",
-         )
-       | Loading => ReasonReact.string("Loading...")
+         {j|Oj. Det verkar som att någonting har gått snett. Ryck tag i en moderator så skall de nog kunna hjälpa till!|j}
+         |> ReasonReact.string
+       | Loading => "Loading..." |> ReasonReact.string
        | Lyrics(lyrics) => <Card lyrics artist />
        }}
     </div>;

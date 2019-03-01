@@ -13,6 +13,7 @@ module Styles = {
       lineHeight(`pct(150.)),
       marginTop(`px(25)),
       width(`px(512)),
+      textAlign(`left),
     ]
   ];
 

@@ -6,9 +6,8 @@ module Styles = {
       alignItems(`center),
       display(`flex),
       flexFlow(`column, `nowrap),
-      justifyContent(`center),
-      height(`pct(100.0)),
-      padding(`px(50)),
+      justifyContent(`flexStart),
+      height(`vh(100.0)),
     ]
   ];
 
@@ -17,7 +16,47 @@ module Styles = {
       alignItems(`center),
       display(`flex),
       flexFlow(`row, `nowrap),
-      marginTop(`px(50)),
+      flexGrow(1.0),
+    ]
+  ];
+
+  let header_wrap = [%css [display(`flex), padding2(`px(64), `px(148))]];
+
+  let text_wrap = [%css
+    [
+      alignItems(`flexStart),
+      display(`flex),
+      flexBasis(`pct(80.0)),
+      flexDirection(`column),
+    ]
+  ];
+
+  let image_wrap = [%css
+    [
+      alignItems(`center),
+      display(`flex),
+      flexBasis(`pct(20.0)),
+      justifyContent(`center),
+    ]
+  ];
+
+  let image_iteam = [%css [width(`px(320))]];
+
+  let h1 = [%css
+    [
+      color(`hex("FF3373")),
+      fontSize(`px(48)),
+      lineHeight(`pct(120.0)),
+      marginBottom(`px(56)),
+    ]
+  ];
+
+  let paragraph = [%css
+    [
+      color(`hex("800028")),
+      fontSize(`px(24)),
+      lineHeight(`pct(150.0)),
+      margin3(`px(0), `px(0), `px(32)),
     ]
   ];
 };
@@ -41,18 +80,38 @@ let make = _children => {
 
   render: self => {
     <div className=Styles.wrap>
-      {switch (self.state.artist) {
-       | Some(a) => <Lyrics artist=a />
-       | None => "" |> ReasonReact.string
-       }}
+      <div className=Styles.header_wrap>
+        <div className=Styles.text_wrap>
+          <h1 className=Styles.h1>
+            {{j|Hur kan det se ut när en AI genererar låttexter?|j}
+             |> ReasonReact.string}
+          </h1>
+          <p className=Styles.paragraph>
+            {{j|Här har vi tränat ett AI på ett antal av texterna från artisterna nedan.|j}
+             |> ReasonReact.string}
+          </p>
+          <p className=Styles.paragraph>
+            {{j|Varje artist genererar låttexter utifrån sin egna upptränade modell.|j}
+             |> ReasonReact.string}
+          </p>
+          <p className=Styles.paragraph>
+            {{j|Klicka på en artist och se vad du får för resultat!|j}
+             |> ReasonReact.string}
+          </p>
+        </div>
+        <div className=Styles.image_wrap>
+          <img alt="Iteam" className=Styles.image_iteam src=Utils.iteam_i />
+        </div>
+      </div>
       <div className=Styles.artist_holder>
         {ReasonReact.array(
            Array.of_list(
              Artist.get_all()
-             |> List.map(a =>
+             |> List.mapi((i, a) =>
                   <Avatar
                     key={Artist.get_name(a)}
                     artist=a
+                    left={i > 2}
                     onClick={_event => self.send(SelectArtist(a))}
                     selected={
                       switch (self.state.artist) {
