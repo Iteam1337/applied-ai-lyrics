@@ -57,7 +57,7 @@ let make = (~artist, ~lyrics=?, _children) => {
              </span>
            </div>;
          } else {
-           ReasonReact.string("Loading...");
+           ReasonReact.string("Skriver...");
          }}
       </div>
     </div>;

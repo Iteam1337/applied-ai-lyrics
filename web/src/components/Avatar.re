@@ -15,6 +15,8 @@ module Styles = {
       transitionDuration(`ms(150)),
       transitionProperty("box-shadow transform"),
       transitionTimingFunction(`easeIn),
+      position(`relative),
+      padding(`px(0)),
       width(`px(96)),
       hover([
         boxShadow(~y=px(4), ~blur=px(12), `hsla((341, 100, 12, 0.1))),
@@ -29,6 +31,9 @@ module Styles = {
     ]
   ];
 
+  let artist_image = [%css
+    [width(`px(96)), height(`px(96)), borderRadius(`px(96))]
+  ];
   let avatar_selected = Cx.merge([|avatar, avatar_s|]);
 
   let relative = [%css [position(`relative)]];
@@ -46,21 +51,22 @@ let make =
       <div className=Styles.relative>
         <button className=Styles.avatar_selected onClick>
           <Lyrics artist left />
-          /***
-           * TODO(@lessp): Add this
-           */
-          /* <img src={Artist.get_image(artist)} alt={Artist.get_name(artist)} /> */
-          {Artist.get_name(artist) |> ReasonReact.string}
+          <img
+            src={Artist.get_image(artist)}
+            alt={Artist.get_name(artist)}
+            className=Styles.artist_image
+          />
         </button>
       </div>
     | `Not_selected =>
       <div>
         <button className=Styles.avatar onClick>
-          /***
-           * TODO(@lessp): Add this
-           */
-          /* <img src={Artist.get_image(artist)} alt={Artist.get_name(artist)} /> */
-           {Artist.get_name(artist) |> ReasonReact.string} </button>
+          <img
+            src={Artist.get_image(artist)}
+            alt={Artist.get_name(artist)}
+            className=Styles.artist_image
+          />
+        </button>
       </div>
     };
   },
