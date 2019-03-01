@@ -2,7 +2,8 @@ module Api = {
   open Js.Promise;
   let get_lyrics = (artist: Artist.artist) => {
     Axios.get(
-      "https://applied-ai-lyrics.iteamdev.se/api/generate/" ++ Artist.get_endpoint(artist),
+      "https://applied-ai-lyrics.iteamdev.se/api/generate/"
+      ++ Artist.get_endpoint(artist),
     )
     |> then_(response => resolve(response));
   };
@@ -47,6 +48,20 @@ module Styles = {
     ]
   ];
   let wrap_left = Cx.merge([|wrap, wrap_l|]);
+
+  let artist = [%css
+    [
+      color(`hex("FFE5EE")),
+      display(`block),
+      fontSize(`px(13)),
+      fontStyle(`normal),
+      fontWeight(700),
+      letterSpacing(`px(1)),
+      lineHeight(`pct(150.)),
+      marginTop(`px(20)),
+      textTransform(`uppercase),
+    ]
+  ];
 };
 
 type state =
@@ -100,14 +115,27 @@ let make = (~artist, ~left=false, _children) => {
     },
 
   render: ({state}) => {
+    let artist_name = artist |> Artist.get_name;
+
     <div className={left ? Styles.wrap_left : Styles.wrap}>
       {switch (state) {
        | Idle => "" |> ReasonReact.string
        | Error =>
-         {j|Oj. Det verkar som att någonting har gått snett. Ryck tag i en moderator så skall de nog kunna hjälpa till!|j}
-         |> ReasonReact.string
-       | Loading => <Card artist />
-       | Lyrics(lyrics) => <Card lyrics artist />
+         <Card>
+           {{j|Oj. Det verkar som att någonting har gått snett. Ryck tag i en moderator så skall de nog kunna hjälpa till!|j}
+            |> ReasonReact.string}
+         </Card>
+       | Loading =>
+         <Card is_small=true> {"Skriver..." |> ReasonReact.string} </Card>
+       | Lyrics(l) =>
+         <Card>
+           <div>
+             {l |> ReasonReact.string}
+             <span className=Styles.artist>
+               {{j|– $artist_name ITEAM |j} |> ReasonReact.string}
+             </span>
+           </div>
+         </Card>
        }}
     </div>;
   },
