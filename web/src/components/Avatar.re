@@ -25,7 +25,7 @@ module Styles = {
   let avatar_s = [%css
     [
       boxShadow(~y=px(4), ~blur=px(16), `hsla((341, 100, 12, 0.12))),
-      /* transform(`scale(1.33)), */
+      transform(`scale(1.33)),
     ]
   ];
 

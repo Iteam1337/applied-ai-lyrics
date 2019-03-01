@@ -17,6 +17,7 @@ module Styles = {
       display(`flex),
       flexFlow(`row, `nowrap),
       flexGrow(1.0),
+      paddingTop(`px(48)),
     ]
   ];
 

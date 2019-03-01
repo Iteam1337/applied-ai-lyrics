@@ -19,7 +19,9 @@ module Styles = {
       position(`absolute),
       bottom(Calc.(`px(32) + `pct(100.))),
       right(`auto),
-      left(`px(0)),
+      left(`px(-6)),
+      transform(`scale(0.75)),
+      transformOrigin(`pct(0.), `pct(100.)),
       select(
         ":after",
         [
@@ -30,7 +32,7 @@ module Styles = {
           width(`px(24)),
           height(`px(24)),
           backgroundColor(`hex("FF0856")),
-          transform(`rotate(`deg(45.0))),
+          transforms([`rotate(`deg(45.0)), `scale(0.75)]),
         ],
       ),
     ]
@@ -39,7 +41,8 @@ module Styles = {
   let wrap_l = [%css
     [
       left(`auto),
-      right(`px(0)),
+      right(`px(-6)),
+      transformOrigin(`pct(100.), `pct(100.)),
       select(":after", [right(`px(62)), left(`auto)]),
     ]
   ];
@@ -103,7 +106,7 @@ let make = (~artist, ~left=false, _children) => {
        | Error =>
          {j|Oj. Det verkar som att någonting har gått snett. Ryck tag i en moderator så skall de nog kunna hjälpa till!|j}
          |> ReasonReact.string
-       | Loading => "Loading..." |> ReasonReact.string
+       | Loading => <Card artist />
        | Lyrics(lyrics) => <Card lyrics artist />
        }}
     </div>;

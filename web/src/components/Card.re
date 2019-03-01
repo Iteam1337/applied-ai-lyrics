@@ -32,22 +32,33 @@ module Styles = {
       textTransform(`uppercase),
     ]
   ];
+
+  let l = [%css [width(`px(128))]];
+  let loader = Cx.merge([|holder, l|]);
 };
 
 let component = ReasonReact.statelessComponent(__MODULE__);
 
-let make = (~artist, ~lyrics, _children) => {
+let make = (~artist, ~lyrics=?, _children) => {
   ...component,
 
   render: _self => {
     let artist_name = artist |> Artist.get_name;
 
-    <div className=Styles.holder>
+    let hasLyrics = Belt.Option.isSome(lyrics);
+
+    <div className={hasLyrics ? Styles.holder : Styles.loader}>
       <div className=Styles.text>
-        {lyrics |> ReasonReact.string}
-        <span className=Styles.artist>
-          {{j|– $artist_name ITEAM |j} |> ReasonReact.string}
-        </span>
+        {if (hasLyrics) {
+           <div>
+             {Belt.Option.getWithDefault(lyrics, "") |> ReasonReact.string}
+             <span className=Styles.artist>
+               {{j|– $artist_name ITEAM |j} |> ReasonReact.string}
+             </span>
+           </div>;
+         } else {
+           ReasonReact.string("Loading...");
+         }}
       </div>
     </div>;
   },
