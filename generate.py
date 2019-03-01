@@ -7,7 +7,7 @@ class Generate:
     def __init__(self, artist):
         artist = artist.lower()
 
-        if not artist or artist not in ('abba', 'ledin', 'maggio', 'kendrick'):
+        if not artist or artist not in ('abba', 'ledin', 'linnros', 'maggio', 'kendrick'):
             return None
 
         textgen = self.get_textgen(artist)
@@ -15,7 +15,7 @@ class Generate:
         out = textgen.generate(
             temperature=self.temperature,
             prefix=None,
-            n=20,
+            n=10,
             max_gen_length=60,
             return_as_list=True)
 
