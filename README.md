@@ -7,4 +7,4 @@ Install https://github.com/minimaxir/textgenrnn
 Generate text by running 
 `python3 generate.py <artist name>`
 
-Supported artists: `abba`, `ledin`, `maggio`
+Supported artists: `abba`, `kendrick`, `ledin`, `linnros`, `maggio`
