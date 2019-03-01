@@ -5,8 +5,7 @@ WORKDIR /web
 COPY ./web .
 
 RUN npm i
-RUN node_modules/.bin/bsb -make-world && node_modules/.bin/webpack
-
+RUN npm run build && node_modules/.bin/webpack
 
 FROM python:3.7
 
