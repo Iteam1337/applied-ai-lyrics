@@ -16,6 +16,15 @@ let get_name = artist =>
   | Maggio => "Veronica Maggio"
   };
 
+let get_first_name = artist =>
+  switch (artist) {
+  | Abba => "Abca"
+  | Kendrick => "Kendrick"
+  | Ledin => "Tomas"
+  | Linnros => "Oskar"
+  | Maggio => "Veronica"
+  };
+
 let get_endpoint = artist => {
   switch (artist) {
   | Abba => "abba"
@@ -25,10 +34,6 @@ let get_endpoint = artist => {
   | Maggio => "maggio"
   };
 };
-
-/**
- * TODO(@lessp): Add avatar image support
- */
 
 let get_image = artist => "./img/" ++ get_endpoint(artist) ++ ".png";
 

@@ -115,7 +115,7 @@ let make = (~artist, ~left=false, _children) => {
     },
 
   render: ({state}) => {
-    let artist_name = artist |> Artist.get_name;
+    let artist_name = artist |> Artist.get_first_name;
 
     <div className={left ? Styles.wrap_left : Styles.wrap}>
       {switch (state) {
