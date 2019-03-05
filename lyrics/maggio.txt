@@ -20,10 +20,6 @@ Jag knyter min hand i fickan och går.
 Jag står där i kön och bråkar och stö.
 Men jag gillar dig som bas gillar hörn.
 Som bas gillar hörn.
-Som bas gillar hörn.
-Som bas gillar hörn.
-Som bas gillar hörn.
-Som bas gillar hörn.
 Huvudet är som sammet och fötterna av bly.
 Svävar över marken, vet inte vem som styr.
 Rutorna nere fast luften är som is.
@@ -74,10 +70,8 @@ Jag vill veta, jag måste få svar.
 Säg mig sanningen, den kan jag ta.
 Ser du stjärnor som i Dallas?
 För jag vill veta, ska jag sluta leta?
-Ja, jag (vill veta).
-Jag säger jag (vill veta).
-Jag säger jag (vill veta).
-Jag säger jag (vill veta).
+Ja, jag vill veta.
+Jag säger jag vill veta.
 Ska jag sluta leta?
 Är vi gjorda för varandra?
 Är det drama som i Dallas?
@@ -195,10 +189,6 @@ Ingen kommer ju vika.
 Vakten kommer och ringa.
 Och då får vi springa.
 Springa, springa.
-Springa, springa.
-Springa, springa.
-Springa, springa.
-Springa, springa.
 Det är för mörkt.
 Det är för mörkt, så mörkt.
 Tusen, miljoner, miljarder.
@@ -253,7 +243,7 @@ Jag ska lägga mig i tid för dig.
 Börja gå i terapi för dig.
 Hädanefter ska jag vara bra.
 Ska jag vara bra för dig.
-Hädanefter, (hädanefter).
+Hädanefter, hädanefter.
 Hädanefter tänker jag efter.
 Jag ska vara bra för dig.
 Ska vara bra för dig.
@@ -267,7 +257,7 @@ Du kan skrika eller hata mig.
 Jag tänker ändå alltid välja dig.
 Hädanefter ska jag vara bra.
 Ska jag vara bra för dig.
-Hädanefter, (hädanefter).
+Hädanefter, hädanefter.
 Hädanefter tänker jag efter.
 Jag ska vara bra för dig.
 Ska vara bra för dig.
@@ -276,10 +266,10 @@ Jag var nästan inte dödlig.
 Alla andra var så prydliga.
 Jag kommer kanske se tillbaks någon dag.
 När allting är förlåtet.
-Hädanefter (hädanefter) ska jag vara bra.
+Hädanefter hädanefter ska jag vara bra.
 Hädanefter ska jag vara bra.
 Ska jag vara bra för dig.
-Hädanefter, (hädanefter).
+Hädanefter, hädanefter.
 Hädanefter tänker jag efter.
 Jag ska vara bra för dig.
 Ska vara bra för dig.
@@ -290,8 +280,8 @@ De städar hytterna och dammtorkar.
 Jag har ingenstans att va.
 Flyttar närmare som svar.
 När du frågar, "Ska vi dra?"
-Jag vaknade alldeles själv (jag lovar).
-Minns inget från i går kväll (jag lovar).
+Jag vaknade alldeles själv jag lovar.
+Minns inget från i går kväll jag lovar.
 Det var väl kanske lika bra.
 Du hade säkert ångrat dig i dag.
 Vi äter lakrits och är stumma.
@@ -301,24 +291,24 @@ Vad du än frågar ska jag svara, "Nej"
 Jag har ingenstans att va.
 Flyttar närmare som svar.
 När du frågar, "Ska vi dra?"
-Jag vaknade alldeles själv (jag lovar).
-Minns inget från i går kväll (jag lovar).
+Jag vaknade alldeles själv jag lovar.
+Minns inget från i går kväll jag lovar.
 Det var väl kanske lika bra?
 Du hade säkert ångrat dig i dag.
-Jag vaknade alldeles själv (jag lovar).
-Minns inget från i går kväll (jag lovar).
+Jag vaknade alldeles själv jag lovar.
+Minns inget från i går kväll jag lovar.
 Det var väl kanske lika bra?
 Du hade säkert ångrat dig i dag.
 Jag vill hellre va bortgjord än att vara ensam.
 Orkar inte vara iskall, vill bara känna.
 Det var väl kanske lika bra?
-Du hade säkert ångrat dig i dag (Hey!).
-Jag vaknade alldeles själv (jag lovar).
-Minns inget från i går kväll (jag lovar).
+Du hade säkert ångrat dig i dag Hey!.
+Jag vaknade alldeles själv jag lovar.
+Minns inget från i går kväll jag lovar.
 Det var väl kanske lika bra?
 Du hade säkert ångrat dig i dag.
-Jag vaknade alldeles själv (jag lovar).
-Minns inget från i går kväll (jag lovar).
+Jag vaknade alldeles själv jag lovar.
+Minns inget från i går kväll jag lovar.
 Det var väl kanske lika bra?
 Du hade säkert ångrat dig i dag.
 Det var väl kanske lika bra?
@@ -414,12 +404,6 @@ Ja när du strippar och klär av dig är det samma grej.
 Jag vet allt om dig.
 Jag vet allt om dig.
 Ja, jag vet allt om dig.
-Jag vet allt om dig.
-Jag vet allt om dig.
-Ja, jag vet allt om dig.
-Jag vet allt om dig.
-Jag vet allt om dig.
-Ja, jag vet allt om dig.
 Mamma ville ta en taxi.
 Men pappa var för snål.
 Så de fick värma sig i varenda trapp.
@@ -471,41 +455,10 @@ Plus 29, där det är mörkt nu.
 Jag vet nästan inget om dig.
 Du vet nästan inget om mig.
 Finns det en så finns det flera.
-Finns det en så finns det flera.
-Finns det en så finns det flera.
-Finns det en så finns det flera.
-Finns det en så finns det flera.
-Finns det en så finns det flera.
-Finns det en så finns det flera.
-Finns det en så finns det flera.
-Finns det en så finns det flera.
-Finns det en så finns det flera.
 Ser mig på taket, allt är så långt bort.
 Landar på natten när alla sover.
 Jag vet nästan inget om dig.
 Du vet nästan inget om mig.
-Finns det en så finns det flera.
-Finns det en så finns det flera.
-Finns det en så finns det flera.
-Finns det en så finns det flera.
-Finns det en så finns det flera.
-Finns det en så finns det flera.
-Finns det en så finns det flera.
-Finns det en så finns det flera.
-Finns det en så finns det flera.
-Ooh, ooh.
-Ooh, ooh.
-Ooh, ooh.
-Finns det en så finns det flera.
-Finns det en så finns det flera.
-Finns det en så finns det.
-Finns det en så finns det flera.
-Finns det en så finns det flera.
-Finns det en så finns det flera.
-Ooh.
-Finns det en så finns det flera.
-Finns det en så finns det flera.
-Finns det en så finns det flera.
 Finns det en så finns det flera.
 Du går med blicken vänd, kan du ha sett mig än?
 Nån borde byta stad, för nu kommer allt tillbaks.
@@ -523,8 +476,6 @@ Du kan gråta mitt på gatan.
 Men jag glömmer aldrig bort vad du gjort.
 Du får passa dig som satan.
 För jag glömmer aldrig bort var du bor.
-Nej, jag glömmer aldrig bort vad du gjort.
-Nej, jag glömmer aldrig bort vad du gjort.
 Nej, jag glömmer aldrig bort vad du gjort.
 I samma låga skor och leendet du log.
 Så här kan det inte va, så här kan det inte va.
@@ -572,7 +523,7 @@ Jag är så svag, ger dig en kram.
 Jag ser det ringer men har inget val.
 Vi går på rad, sotiga barn.
 Barfota fötter genom hela stan.
-Åh nej (åh nej), nu ser du mig.
+Åh nej åh nej, nu ser du mig.
 Jag måste rota i väskan efter mod.
 Jag är så hög, jag kunde dö.
 För jag kan göra det som ingen gjort.
@@ -602,7 +553,6 @@ De stänger men ingen bryr sig.
 Blir blind när alla lampor lyser.
 Mm, det här är värt att dö för.
 Jag tror mitt hjärta blöder.
-Jag tror mitt hjärta blöder.
 Du, jag slänger ner en nyckel ifrån fönstret i köket.
 Jag bor fyra trappor upp och du är välkommen in.
 Massa skor i hela hallen, folk vid fläkten som röker.
@@ -627,7 +577,6 @@ Ja det är det är kö från gatan upp till hallen.
 Dunkande hjärtan klockan kvart över fem.
 Imma på rutorna men ingen går hem.
 Flackande blickar upp och ner och igen, åh.
-Ingen vet ifall det verkligen hänt.
 Ingen vet ifall det verkligen hänt.
 Imma på rutorna men ingen går hem, åh.
 Dunkande hjärtan klockan kvart över fem.
@@ -707,7 +656,6 @@ Ja, jag vet att hon är söt men håll tillbaka.
 För jag har trillat dit, jag har fallit, jag har vaknat.
 Ja, jag vet att hon är söt men håll tillbaka.
 För.
-Jag kommer, jag kommer, jag kommer, jag kommer.
 Jag är nästan där.
 Jag kommer, jag kommer, jag kommer, jag kommer nu.
 Du, håll ut.
@@ -722,7 +670,6 @@ Tio tusen meter upp i luften ser jag allt så klart.
 Jag vet att hon är söt, men det måste bli du och jag.
 Du och jag.
 För.
-Jag kommer, jag kommer, jag kommer, jag kommer.
 Jag är nästan där.
 Jag kommer, jag kommer, jag kommer, jag kommer nu.
 Du, håll ut.
@@ -736,12 +683,7 @@ Jag tror att jag faller, jag faller.
 Jag faller, jag faller.
 I taxin, i trappen, i hissen, i hallen.
 Jag faller, faller.
-Jag kommer, jag kommer.
-Jag kommer, jag kommer.
-Jag kommer, jag kommer.
 Baby, jag faller.
-Jag kommer, jag kommer.
-Jag kommer, jag kommer.
 Jag kommer, jag kommer.
 Du, håll ut, du vet att.
 Jag kommer, jag kommer, jag kommer, jag kommer.
@@ -784,36 +726,21 @@ Fast ingen fatta, fatta jag.
 En Woody Allen-tragedi.
 Där du är krossad och jag går fri.
 Du är krossad och jag går fri.
-Det handlar om dig.
-Det handlar om mig.
-Det handlar om dig.
 Det handlar om mig.
 Du borde ta dina ord tillbaks.
 För alla glömmer men inte jag.
 Ser oss i smyg hålla hand i en taxibil.
 Ser varje bild utan att jag vill.
 Och allt jag skriver blir samma skit.
-Det handlar om dig.
-Det handlar om mig.
-Det handlar om dig.
-Det handlar om mig.
-Det handlar om dig.
-Det handlar om mig.
-Det handlar om dig.
 Det handlar om mig.
 Fastän jag börjar från början.
 Så vill du aldrig släppa taget om mig.
 Och fast jag bara vill glömma.
 Så handlar alla mina låtar om dig.
 Det handlar om dig.
-Det handlar om mig.
-Det handlar om dig.
-Det handlar om mig.
-Det handlar om dig.
 Jag tänker på dig.
 Jag skriver om dig.
 Jag tänker på dig.
-Det handlar om dig.
 Det handlar om dig.
 Och fast jag börjar från början.
 Jag skriver om dig.
@@ -854,7 +781,6 @@ Na na na na.
 Du skulle dumpa mig, dumpa mig.
 Bättre på plats än genom telefo-o-on.
 Ego Ego.
-Na na na na.
 Du skulle.
 Bättre på plats än genom telefo-o-on.
 Na na na na.
@@ -863,10 +789,6 @@ Bättre på plats än genom telefon, ååh, dumpa mig.
 Na na na na.
 Du skulle dumpa mig, åh, dumpa mig.
 Bättre på plats än genom.
-Mm, du skulle dumpa mig.
-Ego Ego.
-Ego Ego.
-Ego.
 Vaken i månskensregn.
 Vridandes i sin säng.
 Nätterna känns igen.
@@ -975,7 +897,6 @@ Aldrig nöjd.
 Dom har vart gamla, dom har vart unga.
 Jag blir aldrig nöjd.
 Dom har vart smarta, dom har vart dumma.
-Mm.
 För lång eller kort eller smal eller bred.
 Jag vill hitta rätt men jag ser bara fel.
 Aldrig nöjd.
@@ -1001,11 +922,8 @@ Du sa att ingen vart så bra som jag.
 Vi talade om allt och älskade.
 Jag låna pengar och kom till din stad.
 Varför ska man tänka på någon annan än sig själv?
-Ego.
-Na-na-na-na.
 Du skulle dumpa mig, dumpa mig.
 Bättre på plats än genom telefon.
-Na-na-na-na.
 Du skulle dumpa mig, dumpa mig.
 Bättre på plats än genom telefon.
 Gick till ditt jobb, jag skulle hämta dig.
@@ -1018,26 +936,20 @@ Så du bad mig komma hit för att få dumpa mig.
 Du sa, "Bättre på plats än genom telefon"
 Varför ska man tänka på någon annan än sig själv?
 Ego.
-Na-na-na-na.
 Du skulle dumpa mig, dumpa mig.
 Bättre på plats än genom telefon.
-Na-na-na-na.
 Du skulle dumpa mig, dumpa mig.
 Bättre på plats än genom telefon.
 Ego, ego.
-Na-na-na-na.
 Du skulle.
 Bättre på plats än genom telefon.
 Na-na-na-na.
 Du skulle dumpa mig, dumpa mig.
-Bättre på plats än genom telefon (ååh, dumpa mig).
+Bättre på plats än genom telefon ååh, dumpa mig.
 Na-na-na-na.
-Du skulle dumpa mig (ååh, dumpa mig).
+Du skulle dumpa mig ååh, dumpa mig.
 Bättre på plats än genom.
 Mm, du skulle dumpa mig.
-Ego, ego.
-Ego, ego.
-Ego.
 Jag förlåter dig för allt om du har något att bekänna.
 Reser du din väg, då kan du be mig vänta.
 Om det uppstår något problem, säg till så kan jag hjälpa.
@@ -1102,21 +1014,15 @@ Gå nu, du ska inte vara här.
 Gå nu, glöm bort det som sagts ikväll.
 Glöm allt, lämna kvar det du minns som bra.
 Gå nu, jag vill att du ger dig av.
-Jag vill att du går nu.
-Jag vill att du går nu.
 Jag vill att du ger dig av.
 Få mig, få mig att ändra mig.
 Förstå mig, det är klart att du ångrar dig.
 Jag vet nog, jag vet vad du tänker på.
 Men tro mig, vad som än väntar gå.
-Jag vill att du går nu.
-Jag vill att du går nu.
-Jag vill att du går nu.
-Jag vill att du går nu.
 Jag vill att du ger dig av.
 Snälla lyssna nu.
 Jag vill att du.
-Jag vill att du (går nu).
+Jag vill att du går nu.
 Jag har rest genom byar och städer.
 Ingenting fanns, ingenting fanns.
 Jag har stirrat mig blind i en spegel.
@@ -1148,7 +1054,7 @@ Vi kan väl glömma allt det där.
 Och bara se till det som är?
 Man ska va glad för det man får.
 För varje månad varje år.
-Vi har inte tid, för sånt här (vi har, vi har).
+Vi har inte tid, för sånt här vi har, vi har.
 Vi har.
 Vi har inte tid, för sånt här.
 Vi har, vi har.
@@ -1161,10 +1067,8 @@ Du brukar inte vara så.
 Tala om jag vill förstå.
 De här åren går för fort.
 Och du vet att vi hör ihop.
-Vi har inte tid, för sånt här (vi har, vi har).
-Vi har.
+Vi har inte tid, för sånt här vi har, vi har.
 Vi har inte tid, för sånt här.
-Vi har, vi har.
 Vi har inte tid med sånt här nåt mer.
 Brukar dom säga som om tid var en ägodel.
 Som om livet var ett tärningsspel.
@@ -1178,8 +1082,7 @@ Kolla, jag ska fylla tjugotre och vart det här.
 Tar vägen det blir kul att se.
 Men jag är inte den som har bråttom och nojjar över år.
 För såna har vi gott om, om du förstår.
-Vi har inte tid, för sånt här (vi har, vi har).
-Vi har.
+Vi har inte tid, för sånt här vi har, vi har.
 Vi har inte tid, för sånt här.
 Vi har, vi har.
 Jag minns allt som vackert och färggrant.
@@ -1302,8 +1205,6 @@ Du får mig att se färger.
 Vill dansa tills jag glömmer vem jag är.
 Jag hör ju vad dom säger, men allting känns okej och.
 Jag kan skrika högre än dom gör.
-Allt jag hör är (aaah).
-Allt jag hör är (aaah).
 Jag sätter upp håret, fäller ner suffletten.
 Tittar inte bakåt, jag vet vad som finns.
 Du kan inte få mer, inget kan bli bättre.
@@ -1313,15 +1214,11 @@ Jag får dig att se färger.
 Vi dansar tills vi glömmer dom vi är.
 Jag hör ju vad dom säger, men allt kan bli okej och.
 Vi kan skrika högre än dom gör.
-Allt jag hör är (aaah).
-Allt jag hör är (aaah).
 Alla röda streck på mitt papper.
 Alla fel jag gjort.
 Jag lagar inte det som är vackert.
 Alla fel jag gjort brukar gå men jag.
 Borde gå men jag dröjer kvar.
-Allt jag hör är (aaah).
-Allt jag hör är (aaah).
 Vaknar i en solstol.
 I ett rökigt moln och ger dig min hand.
 Skakar av min handduk.
@@ -1345,13 +1242,6 @@ Speglar mig i dina solglasögon men du ser inte mig.
 Jag är nästan hög på doften av bensin och brinnande däck.
 Tusen kilometer snabbare än ljudet, varv på varv.
 Tuggar på en isbit, kisar in i solen, är som i trans.
-Ingen är för evigt.
-Ingen är för evigt här.
-Ingen är för evigt.
-Ingen är för evigt här.
-Ingen är för evigt.
-Ingen är för evigt här.
-Ingen är för evigt.
 Ingen är för evigt här.
 Vem är jag?
 Inget svar, men du visste.
@@ -1458,9 +1348,6 @@ Tills det är allt jag gör?
 Jag vill alltid ha det bäst kvar.
 Jag vill alltid ha det bästa.
 Men jag vet inte vad det bästa är.
-Jag vill alltid ha det bästa.
-Jag vill alltid ha det bästa kvar.
-Jag vill alltid ha det bästa.
 Mina kläder lyser vitt i mörkret.
 Det är speglar överallt.
 Vill så gärna bara fråga någon om varför jag är här.
@@ -1470,17 +1357,9 @@ Och det påminner mig.
 Jag har alltid haft så dålig karaktär.
 Vi ska storma tills vi dör?
 Tills det är allt vi gör?
-Jag vill alltid ha det bäst kvar.
-Jag vill alltid ha det bästa.
+Men jag vet inte vad det bästa är.
 Men jag vet inte vad det bästa är.
 Jag vill alltid ha det.
-Jag vill alltid ha det bästa kvar.
-Jag vill alltid ha det bästa.
-Men jag vet inte vad det bästa är.
-Jag vill alltid ha det.
-Jag vill alltid ha det bästa.
-Jag vill bara höra en gång till.
-Jag vill bara höra en gång till.
 Jag vill bara höra en gång till när du säger mitt namn.
 Uppe på taket.
 Håller jag mig vaken.
@@ -1529,8 +1408,6 @@ Blir kvar igen.
 Du tror att jag har valt nåt annat än jag brukar.
 Blir kvar igen.
 Du tror att jag har valt nåt annat än jag brukar.
-Du kan gå med mig när jag går.
-Du kan gå med mig när jag går.
 Du får gå med mig när jag går.
 Men inte falla.
 Nej inte falla.
@@ -1573,8 +1450,6 @@ Men då missar man ju alltid nått.
 Större, bättre.
 Jag kan så mycket mer är det som alla ser.
 Bättre, större.
-Det är alla andras fel.
-Det är alla andras fel.
 Det är alla andras fel och inte mitt.
 Morgondimman ser jag nästan aldrig.
 Vila över någon grönskande förtrollad sommaräng.
@@ -1665,7 +1540,6 @@ Jag springer full med oro.
 Och jag dömer ingen längre.
 Har jag tänkt det, har jag gjort det.
 Det kostar ingenting i början.
-Men det blir alltid dyrt tillslut, tillslut.
 Och den första är alltid gratis.
 Men det blir alltid dyrt tillslut, tillslut.
 Första gången, första kyssen.
@@ -1673,10 +1547,6 @@ Första drömmen är så lätt att fånga.
 Första lögnen, första smällen.
 Första sveket kan man alltid ångra.
 Är född med trubbel i mitt blod.
-Första, första är alltid gratis.
-Första, första är alltid gratis.
-Första, första är alltid gratis.
-Första, första är alltid gratis.
 Kommer alltid att drömma om vi mot världen.
 Vill ha svart, vill ha vitt, vill ha alla färger.
 Ah, ah, ah, alla färger.
@@ -1685,8 +1555,6 @@ Sträcker upp mina armar och höjer blicken.
 Lägger upp mina fötter och lever lite.
 Ah, ah, ah, lever lite.
 Ah, ah, ah, och jag lever lite.
-Ingen annan som kan göra det du gör med mig.
-Ingen annan som kan göra det du gör med mig.
 Kommer alltid va vi mot världen.
 Det du gör med mig.
 Kommer alltid va vi mot världen.
@@ -1699,13 +1567,10 @@ När du vände dig om stod det redan skrivet.
 Hade blivit någon annan än den jag blivit.
 Ah, ah, ah, den jag blivit.
 Ah, ah, ah, än den jag blivit.
-Ingen annan som kan göra det du gör med mig.
-Ingen annan som kan göra det du gör med mig.
 Kommer alltid va vi mot världen.
 Det du gör med mig.
 Kommer alltid va vi mot världen.
 Det du gör med mig.
-Ingen annan som kan göra det du gör med mig.
 Ingen annan som kan göra det du gör med mig.
 Kommer alltid va vi mot världen.
 Det du gör med mig.
@@ -1713,33 +1578,19 @@ Kommer alltid va vi mot världen.
 Det du gör med mig.
 Non c'è nessuno che sa fare quello.
 Quello che sai fare tu.
-Det är ingen annan som kan göra det du gör med mig.
 Ingen annan som kan göra det du gör med mig.
-Kommer alltid va vi mot världen.
-Det du gör med mig.
-Kommer alltid va vi mot världen.
-Det du gör med mig.
-Kommer alltid va vi mot världen.
-Det du gör med mig.
-Kommer alltid va vi mot världen.
-Det du gör med mig.
-Kommer alltid va vi mot världen.
-Det du gör med mig.
-Kommer alltid va vi mot världen.
-Det du gör med mig.
-Oh, oh, oh, oh.
 Ingenting, ingenting i min kalender idag.
 Inga vänner kvar.
 26, bor i andra hand och har inget kul.
 Borde ta mig ut.
-​stackars mig (stackars mig).
+​stackars mig stackars mig.
 Ingen bryr sig om lilla jag.
-Jag vill höra någon säga mig (säga mig).
+Jag vill höra någon säga mig säga mig.
 ​Att imorn blir en bättre dag.
 Oooohhh.
-Som i en gammal sång (gammal sång).
+Som i en gammal sång gammal sång.
 Att spela på min grammofon.
-Vill höra samma sång (samma sång).
+Vill höra samma sång samma sång.
 ​Där allt blir bra imorn.
 Lördagkväll.
 Sitter ensam på en öde perrong.
@@ -1747,13 +1598,13 @@ Nynnar samma sång.
 Minus sju.
 Röker fyra cigaretter i rad.
 Inget gör mig glad.
-​stackars mig (stackars mig).
+​stackars mig stackars mig.
 För ingen bryr sig om lilla jag.
-Orkar inte längre vänta på (stackars mig).
+Orkar inte längre vänta på stackars mig.
 Att imorn blir en bättre dag.
-Som i en gammal sång (gammal sång).
+Som i en gammal sång gammal sång.
 Att spela på min grammofon.
-Vill höra samma sång (samma sång).
+Vill höra samma sång samma sång.
 ​Där allt blir bra imorn.
 Det är bara repetition, repetition, repetition jämt.
 För jag gör ingenting i flera dagar.
@@ -1762,13 +1613,13 @@ Medan andra går till sängs.
 Det är bara repetition, repetition, repetition jämt.
 Som i en gammal sång.
 Där allt blir bra, där allt.
-Jag hör en gammal sång (gammal sång).
+Jag hör en gammal sång gammal sång.
 Som spelar på min grammofon.
-Det är bara samma sång (samma sång).
+Det är bara samma sång samma sång.
 ​Där allt blir bra imorn.
 Gammal sång Som spelar på min grammofon.
 De är bara.
-Samma sång (samma sång).
+Samma sång samma sång.
 ​Där allt blir bra, där allt blir bra imorn.
 Du ser på mig, vännen.
 Som om jag gjort något fel.
@@ -1859,7 +1710,6 @@ Jag tänker stoppa dig, stoppa dig.
 Snälla förlåt mig låt mig förklara.
 Bara stoppa dig för.
 Tänker för mycket på dig.
-Snälla förlåt mig låt mig förklara bara stoppa dig jag.
 Tänker för mycket på dig.
 Snälla förlåt mig låt mig förklara bara stoppa dig jag.
 Jag vet var du jobbar och handlar.
@@ -1907,7 +1757,6 @@ Och dina djur är borta.
 Ring och säg förlåt.
 Kramas och gråt.
 Håll dina barn i handen.
-Ingen kommer undan inte ens i Sverige.
 Ingen kommer undan inte ens i Sverige.
 Fort gräv dig en grop.
 Hoppas och tro.
@@ -2000,17 +1849,13 @@ Där jag växte upp och så.
 Märker du hur fort det går?
 Och jag var 17 år ville inte va den.
 Som blev kvar.
-Jag ville inte va den.
-Jag ville inte va den.
-Jag ville inte va den som blev kvar.
-Jag ville inte va den som blev kvar.
 Jag blev ett måndagsbarn.
 Hela livet blev en helg.
 Mmm, nu är det måndag snart.
 Och jag lever för ikväll.
 Sena nätter, tomma glas.
 Femhundra skjuter upp problemet.
-För ett tag (för stunden).
+För ett tag för stunden.
 Men jag tror att alla snart.
 Har fått nog av mig.
 Vad har du gjort?
@@ -2054,19 +1899,17 @@ Vad har du gjort?
 Veronica med dig själv.
 Helgen måste ta slut.
 Du är ett måndagsbarn.
-Du är ett måndagsbarn.
-Ja men du vet, vi kan inte kalla det retro (vinnaren).
+Ja men du vet, vi kan inte kalla det retro vinnaren.
 När vi är i framtiden förstår du hur jag menar då?
-Veronica Maggio är (vinnaren).
-Här har du (vinnaren).
-Alla kollar på (vinnaren).
-Här har du (hej).
-Vem står på prispallen? Ja exakt (bara mig).
-Ingen kommer undan flykten till Sverige (hej, hej, bara mig).
-K-I-H-L-E-N.
-V-M (mig, mig, bara mig!).
-Mig, mig, bara mig (mig, mig, bara mig).
-Alla kollar på (vinnaren).
+Veronica Maggio är vinnaren.
+Här har du vinnaren.
+Alla kollar på vinnaren.
+Här har du hej.
+Vem står på prispallen? Ja exakt bara mig.
+Ingen kommer undan flykten till Sverige hej, hej, bara mig.
+V-M mig, mig, bara mig!.
+Mig, mig, bara mig mig, mig, bara mig.
+Alla kollar på vinnaren.
 Är inte den som brukar säga sånt här.
 Jag ska viska det så att ingen hör.
 Känner mig som om jag var 13 och kär.
@@ -2076,9 +1919,6 @@ Aldrig förut har det varit så.
 Vi kommer inte längre än till hallen ikväll.
 Vi behåller bara skorna på.
 Ja, ja, ja.
-Ja, ja, ja.
-Ja, ja, ja.
-Ja, ja, ja.
 Är inte den som brukar säga sånt här.
 Jag ska viska det på bussen hem.
 Kan inte längre skilja rätt ifrån fel.
@@ -2087,7 +1927,3 @@ Så du får lura i mig vad som helst.
 De som lämnar festen innan två.
 Så vi kommer inte längre än till hallen ikväll.
 Jag behåller bara skorna på.
-Ja, ja, ja.
-Ja, ja, ja.
-Ja, ja, ja.
-Ja, ja, ja.

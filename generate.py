@@ -16,12 +16,12 @@ class Generate:
             temperature=self.temperature,
             prefix=None,
             n=10,
-            max_gen_length=60,
+            max_gen_length=40,
             return_as_list=True)
 
         self.set_generated(out)
 
-    temperature = [1.0, 0.5, 0.2, 0.2]
+    temperature = [1, 0.8, 0.9, 0.8]
     generated = ''
 
     def set_generated(self, input_list):

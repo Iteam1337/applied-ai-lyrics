@@ -12,8 +12,8 @@ model_cfg = {
 
 train_cfg = {
     'line_delimited': True,   # set to True if each text has its own line in the source file
-    'num_epochs': 40,   # set higher to train the model for longer
-    'gen_epochs': 40,   # generates sample text from model after given number of epochs
+    'num_epochs': 50,   # set higher to train the model for longer
+    'gen_epochs': 50,   # generates sample text from model after given number of epochs
     'train_size': 0.8,   # proportion of input data to train on: setting < 1.0 limits model from learning perfectly
     'dropout': 0.0,   # ignore a random proportion of source tokens each epoch, allowing model to generalize better
     'validation': False,   # If train__size < 1.0, test on holdout dataset; will make overall training slower
