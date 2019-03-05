@@ -1,7 +1,7 @@
 import multiprocessing as mp
 from generate import Generate
 from flask_cors import CORS, cross_origin
-from flask import Flask, jsonify
+from flask import Flask, jsonify, send_file
 
 app = Flask(__name__, root_path="web/", static_url_path="/", static_folder="build/")
 
@@ -22,6 +22,10 @@ def web():
 @app.route("/Index.js")
 def send_js():
     return open("web/build/Index.js").read()
+
+@app.route("/img/<artist>")
+def send_image(artist):
+    return send_file("".join(("img/", artist)))
 
 
 @app.route("/api/generate/<artist>")
